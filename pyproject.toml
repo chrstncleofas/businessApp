@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "businessapp"
+version = "0.1.0"
+description = ""
+authors = ["Christian Cleofas"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
