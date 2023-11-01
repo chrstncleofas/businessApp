@@ -14,16 +14,16 @@
     <div class="container">
         <div class="forms-container">
             <div class="signin-signup">
-                <!-- <form class="sign-in-form" method="post" action="login_page">
+                <form class="sign-in-form" method="post" action="login_page">
                     {% csrf_token %}
                     <h2 class="title">Login</h2>
                     <div class="input-field">
                         <i class='bx bxs-user'></i>
-                        <input type="text" name="login-username" id="login-username" placeholder="Username">
+                        <input type="text" name="login-username" id="login-username" placeholder="Username" required>
                     </div>
                     <div class="input-field">
                         <i class='bx bxs-lock-alt'></i>
-                        <input type="password" name="login-password" id="login-password" placeholder="Password">
+                        <input type="password" name="login-password" id="login-password" placeholder="Password" required>
                     </div>
                     <input type="submit" value="Login" class="btn solid">
                     <p class="social-text">Or sign in with social platforms</p>
@@ -42,7 +42,7 @@
                             <i class='bx bxl-linkedin'></i>
                         </a>
                     </div>
-                </form> -->
+                </form>
                 <!-- <form class="sign-up-form" method="post" action="register">
                     {% csrf_token %}
                     <h2 class="title">Sign Up</h2>
@@ -76,23 +76,19 @@
                         </a>
                     </div>
                 </form> -->
-                <h1 style="text-align: center; font-size: 45px;">Welcome to our first project</h1>
             </div>
         </div>
         <div class="panels-container">
             <div class="panel left-panel">
-                <div class="content">
+                <!-- <div class="content">
                     <h3>New here?</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, illo. Vitae, nesciunt.
                     </p>
                     <button class="btn transparent" id="sign-up-btn">
-                        <a href="{% url 'login_page' %}" style="text-decoration: none; color: white;">Login</a>
+                        <a href="{% url 'register' %}">Sign up</a>
                     </button>
-                    <button class="btn transparent" id="sign-up-btn">
-                        <a href="{% url 'register' %}" style="text-decoration: none; color: white;">Sign up</a>
-                    </button>
-                </div>
-                <img src="{% static  'images/Profiling_Monochromatic.png' %}" class="image" alt="">
+                </div> -->
+                <img src="{% static  'images/Authentication_Outline.png' %}" class="image" alt="">
                 <!-- <img src="/images/Profiling_Monochromatic.png" class="image" alt=""> -->
             </div>
             <div class="panel right-panel">
