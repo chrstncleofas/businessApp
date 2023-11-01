@@ -302,11 +302,10 @@ input[type="checkbox"]:checked + .modal {
     display: block;
 }
 
-/* CSS for the "OK" button */
 .btn-ok {
     display: inline-block;
-    background-color: #007BFF; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #007BFF;
+    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -318,7 +317,7 @@ input[type="checkbox"]:checked + .modal {
 }
 
 .btn-ok:hover {
-    background-color: #0056b3; /* Hover background color */
+    background-color: #0056b3;
 }
 
 /* Responsiveness */
