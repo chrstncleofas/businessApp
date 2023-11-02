@@ -26,3 +26,8 @@ Next you need to type this command one by one on your terminal
 2. After the poetry shell command you need to install the package include in pyproject by using this.
 
 - "poetry install"
+
+Then the script you can also use that by typing
+
+1. ./run
+2. ./updateLocalRepo

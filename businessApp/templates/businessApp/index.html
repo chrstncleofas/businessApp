@@ -23,12 +23,12 @@
                     <h3>New here?</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, illo. Vitae, nesciunt.
                     </p>
-                    <button class="btn transparent" id="sign-up-btn">
-                        <a href="{% url 'login_page' %}" style="text-decoration: none; color: white;">Login</a>
-                    </button>
-                    <button class="btn transparent" id="sign-up-btn">
-                        <a href="{% url 'register' %}" style="text-decoration: none; color: white;">Sign up</a>
-                    </button>
+                    <a href="{% url 'login_page' %}" style="text-decoration: none; color: white;">
+                        <button class="btn transparent" id="sign-up-btn">Login</button>
+                    </a>
+                    <a href="{% url 'register' %}" style="text-decoration: none; color: white;">
+                        <button class="btn transparent" id="sign-up-btn">Sign up</button>
+                    </a>
                 </div>
                 <img src="{% static  'images/Profiling_Monochromatic.png' %}" class="image" alt="">
             </div>
